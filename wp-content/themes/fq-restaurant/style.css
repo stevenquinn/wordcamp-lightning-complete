@@ -1,0 +1,105 @@
+/*
+ Theme Name:   FQ Restaurant
+ Description:  Basic demo restaurant theme
+ Author:       Figoli Quinn & Associates
+ Author URI:   https://www.figoliquinn.com
+ Template:     bootstrap-canvas-wp
+*/
+html, body {
+  background: #C95946; }
+
+.logo {
+  width: 100%;
+  background: #FDFBF4;
+  border: 5px solid #B91C00;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .logo .small, .logo .large, .logo .date {
+    text-align: center;
+    color: #B91C00; }
+  .logo .small {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px; }
+  .logo .large {
+    background: #B91C00;
+    margin: 20px -40px 20px -40px;
+    padding: 1px;
+    color: #fff;
+    font-family: 'Wendy One', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px; }
+  .logo .date {
+    color: #9A9A9A;
+    font-family: 'Wendy One', sans-serif; }
+
+.navbar-default {
+  background: none;
+  border: none; }
+  .navbar-default .nav {
+    text-align: center; }
+    .navbar-default .nav > li {
+      display: inline-block; }
+      .navbar-default .nav > li > a {
+        color: #fff;
+        text-align: center;
+        font-family: 'Wendy One', sans-serif;
+        font-size: 24px; }
+        .navbar-default .nav > li > a:hover {
+          color: #717171; }
+
+h1 {
+  text-align: center;
+  font-family: 'Wendy One', sans-serif !important;
+  color: #fff !important;
+  font-size: 70px !important; }
+
+h2 {
+  text-align: center;
+  font-family: 'Wendy One', sans-serif !important;
+  color: #FFB053 !important;
+  font-size: 35px !important; }
+
+h3 {
+  text-align: center;
+  font-family: 'Bree Serif', serif !important;
+  color: #FFB053 !important;
+  font-size: 25px !important;
+  margin-top: 0;
+  margin-bottom: 40px; }
+
+p {
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center; }
+
+.divided {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 5px solid #F48080; }
+
+.food-item {
+  background: #FDFBF4;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+  .food-item .title {
+    background: #B91C00;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 -20px 0 -20px;
+    padding: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; }
+    .food-item .title a {
+      color: #fff;
+      font-family: 'Wendy One', sans-serif; }
+      .food-item .title a:hover {
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

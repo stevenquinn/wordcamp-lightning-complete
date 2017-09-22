@@ -1,0 +1,61 @@
+.additional-fields {
+  display: none; }
+
+#food-item-template {
+  display: none; }
+
+.food-item {
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-bottom: none;
+  padding: 8px 10px;
+  margin: 0; }
+  .food-item:last-child {
+    border-bottom: 1px solid #e8e8e8; }
+  .food-item h4 {
+    margin: 0; }
+  .food-item .fields {
+    width: 70%;
+    float: left; }
+  .food-item .buttons {
+    width: 30%;
+    float: right; }
+    .food-item .buttons ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      float: right; }
+      .food-item .buttons ul li {
+        float: left;
+        margin-left: 4px; }
+  .food-item .food-editor {
+    display: none; }
+
+.food-editor {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-top: 10px; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+
+/*# sourceMappingURL=fq-restaurant-admin.css.map */
